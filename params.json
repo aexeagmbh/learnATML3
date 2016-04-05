@@ -1,6 +1,6 @@
 {
   "name": "learn ATML3",
-  "tagline": "Step by step tutorial for learning ATML3",
-  "body": "# Mein erstes Training\r\n## Basics\r\n## Satz\r\n## Trigger\r\n## Varianten\r\n## Synonyme\r\n## Property\r\n## Mapping auf einen Datensatz\r\n## Mapping auf eine Variable\r\n## Mapping auf Nummer5\r\n## Truth\r\n## Vocabulary\r\n## Container\r\n## Parameter einfügen\r\n## Story\r\n## default story\r\n## conditional story\r\n## Promoten\r\n\r\n# ATML3 im Detail\r\n## Containers\r\n## Appeal container\r\n## Fail Container\r\n## Grammar Container\r\n## Group Container\r\n## Phrase Container\r\n## Text Container\r\n## Value Container\r\n\r\n## Container parameters\r\n## Alternative\r\n## Capitalize\r\n## Kill\r\n## Lower\r\n## On\r\n## Off\r\n## Preceeding\r\n## Trailing\r\n## Void\r\n## Source\r\n## Keyword\r\n\r\n## Product Types\r\n\r\n## Sentences\r\n## Sentence Groups\r\n## Story Mode\r\n\r\n## Vertigo Expression Language\r\n## Basic Functions\r\n## List Functions\r\n## Lookups\r\n## Nummer5 Functions\r\n## Object Functions",
+  "tagline": "Erzeuge Sprache mit der Automated Text Markup Language",
+  "body": "# Nimm dir 5 Minuten Zeit und lerne, wie du Maschinen das Sprechen beibringst\r\nATML3 ist eine Sprache, mit der du Texte aus strukturierten Daten erzeugen lassen kannst. Rendern kannst du ATML3 auf der Plattform <my.ax-semantics.com> - wir nennen sie liebevoll MyAX ;) \r\n\r\nMyAX beherrscht momentan **13 Sprachen**, die weitgehend aus dem europäischen Raum kommen. Aber auch Chinesisch (Unified Chinese) ist bereits dabei.\r\n\r\n## Du brauchst\r\n- einen Account bei www.ax-semantics.com\r\n- eine Datenquelle über die Dinge, die du beschreiben möchtest",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
