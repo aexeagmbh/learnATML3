@@ -1,0 +1,36 @@
+# Site settings
+title: learn ATML§
+url: "http://atml3.rocks/learnATML3/"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+baseurl: "/" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
+#timezone: Germany
+description: >
+Take five minutes to learn ATML3, the world's most powerful NLG automation language!
+
+# Your information
+email: frank.feulner@ax-semantics.com
+author: "frank feulner"
+profile: An ATML3 afficionado.
+#twitter_username: @kanbanwolf
+#github_username:  frank-feulner
+
+# Comment Service (Disqus or 多说)
+#  choose one and un-comment the line to active it
+#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
+#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
+
+permalink: /archivers/:title
+gems:
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
+
+# Build settings
+paginate: 5
+paginate_path: "page:num"
+
+highlighter: rouge
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
