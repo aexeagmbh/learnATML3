@@ -26,5 +26,3 @@ script:
 after_success:
     - echo "atml3.rocks/learnATML3" > ./public/CNAME
     - ./scripts/deploy.sh
-Status API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Contact Help
