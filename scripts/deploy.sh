@@ -37,6 +37,7 @@ for file in $contentpath*.html ; do
   sed -iold '1i\'$'\n''+++'$'\n' $file
   sed -iold '1i\'$'\n''title = "'$currentfilename'"'$'\n' $file
   sed -iold '1i\'$'\n''draft = true'$'\n' $file
+  sed -iold '1i\'$'\n''categories = ["ATML3"]'$'\n' $file
   sed -iold '1i\'$'\n''date = "'$currenttime'"'$'\n' $file
   sed -iold '1i\'$'\n''+++'$'\n' $file
 # konvertierte Dateien ins Contentverzeichnis von Hugo schieben
