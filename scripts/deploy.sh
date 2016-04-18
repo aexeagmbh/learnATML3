@@ -47,6 +47,8 @@ for file in $contentpath*.html ; do
   rm $backupfile
 done
 
+echo $(pwd)
+
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Build the project.
