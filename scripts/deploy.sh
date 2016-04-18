@@ -8,7 +8,6 @@
   contentpath=${currentpath/scripts/Lessons}/
   publishpath=${currentpath/scripts/content}/
   publishpath=$publishpath"post/"
-  cd $contentpath
 
 # alle html Dateien in contentpath abgehen
 
