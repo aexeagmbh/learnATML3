@@ -3,7 +3,7 @@
 #aktuellen Pfad abfragen
   cd $(dirname $0)
   currentpath=$(PWD)
-
+  cd ..
 #aus aktuellem Pfad den Pfad des Jupyter Notebooks ableiten und dorthin wechseln
   contentpath=${currentpath/scripts/Lessons}/
   publishpath=${currentpath/scripts/content}/
