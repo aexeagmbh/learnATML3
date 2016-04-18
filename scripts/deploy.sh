@@ -23,6 +23,7 @@ currenttime=${currenttime/0200/02:00}
 currenttime=${currenttime/0100/01:00}
 
 for file in $contentpath*.html ; do
+# Achtung! Die Ableitung von $file failt, wenn die Namen der ipython Notebooks Leerzeichen enthalten
 # Datum so umformatieren, dass hugo es erkennt --> Zeitzone +0200 zu +02:00
   currenttime=$(date +%Y-%m-%dT%H:%M:%S%z)
   currenttime=${currenttime/0200/02:00}
