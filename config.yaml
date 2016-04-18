@@ -1,0 +1,10 @@
+---
+contentdir: "content"
+layoutdir: "layouts"
+publishdir: "public"
+indexes:
+  category: "categories"
+baseurl: "https://github.com/axsemantics/learnATML3"
+title: "learn ATML3 in five minute lessons"
+canonifyurls: true
+...
