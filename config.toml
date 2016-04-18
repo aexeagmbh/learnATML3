@@ -1,3 +1,7 @@
 baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "de-de"
 title = "learn ATML3"
+
+[taxonomies]
+tag = "tags"
+category = "categories"

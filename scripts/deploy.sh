@@ -1,61 +1,47 @@
 #!/bin/bash
-set -e
 
-# Deploy built docs to this branch
-TARGET_BRANCH=gh-pages
+#aktuellen Pfad abfragen
+  cd $(dirname $0)
+  currentpath=$(PWD)
 
-if [ ! -f "$SOURCE_DIR/index.html" ]; then
-  echo "SOURCE_DIR ($SOURCE_DIR) does not exist, build the source directory before deploying"
-  exit 1
-fi
+#aus aktuellem Pfad den Pfad des Jupyter Notebooks ableiten und dorthin wechseln
+  contentpath=${currentpath/script/Lessons}/
+  publishpath=${currentpath/script/content}/
+  publishpath=$publishpath"post/"
+  cd $contentpath
 
-REPO=$(git config remote.origin.url)
+# alle html Dateien in contentpath abgehen
 
-if [ -n "$TRAVIS_BUILD_ID" ]; then
-  # When running on Travis we need to use SSH to deploy to GitHub
-  #
-  # The following converts the repo URL to an SSH location,
-  # decrypts the SSH key and sets up the Git config with
-  # the correct user name and email (globally as this is a
-  # temporary travis environment)
-  #
-  # Set the following environment variables in the travis configuration (.travis.yml)
-  #
-  #   DEPLOY_BRANCH    - The only branch that Travis should deploy from
-  #   ENCRYPTION_LABEL - The label assigned when encrypting the SSH key using travis encrypt-file
-  #   GIT_NAME         - The Git user name
-  #   GIT_EMAIL        - The Git user email
-  #
-  echo DEPLOY_BRANCH: $DEPLOY_BRANCH
-  echo ENCRYPTION_LABEL: $ENCRYPTION_LABEL
-  echo GIT_NAME: $GIT_NAME
-  echo GIT_EMAIL: $GIT_EMAIL
-  if [ "$TRAVIS_BRANCH" != "$DEPLOY_BRANCH" ]; then
-    echo "Travis should only deploy from the DEPLOY_BRANCH ($DEPLOY_BRANCH) branch"
-    exit 0
-  elif [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
-    echo "Travis should not deploy from pull requests"
-    exit 0
-  else
-    # switch both git and https protocols as we don't know which travis
-    # is using today (it changed!)
-    REPO=${REPO/git:\/\/github.com\//git@github.com:}
-    REPO=${REPO/https:\/\/github.com\//git@github.com:}
+for file in $contentpath*.ipynb ; do
+# Notebooks in html mit basistemplate umwandeln
+jupyter nbconvert $file to html --template basic
+done
 
-    chmod 600 $SSH_KEY
-    eval `ssh-agent -s`
-    ssh-add $SSH_KEY
-    git config --global user.name "$GIT_NAME"
-    git config --global user.email "$GIT_EMAIL"
-  fi
-fi
+# Datum so umformatieren, dass hugo es erkennt --> Zeitzone +0200 zu +02:00
+currenttime=$(date +%Y-%m-%dT%H:%M:%S%z)
+currenttime=${currenttime/0200/02:00}
+currenttime=${currenttime/0100/01:00}
 
-REV=$(git rev-parse --short HEAD)
+for file in $contentpath*.html ; do
+# Datum so umformatieren, dass hugo es erkennt --> Zeitzone +0200 zu +02:00
+  currenttime=$(date +%Y-%m-%dT%H:%M:%S%z)
+  currenttime=${currenttime/0200/02:00}
+  currenttime=${currenttime/0100/01:00}
 
-cd $SOURCE_DIR
-git init .
-git checkout -b $TARGET_BRANCH
+# Name der aktuellen Datei auslesen und für Titel verwenden
+  currentfilename=$(basename "$file")
+  currentfilename=${currentfilename/.html/}
 
-git add -A .
-git commit --allow-empty -m "Built from commit $REV"
-git push -f $REPO $TARGET_BRANCH
+# Name und Datum als front matter in die html-datei verschieben
+  sed -iold '1i\'$'\n''+++'$'\n' $file
+  sed -iold '1i\'$'\n''title = "'$currentfilename'"'$'\n' $file
+  sed -iold '1i\'$'\n''draft = true'$'\n' $file
+  sed -iold '1i\'$'\n''date = "'$currenttime'"'$'\n' $file
+  sed -iold '1i\'$'\n''+++'$'\n' $file
+# konvertierte Dateien ins Contentverzeichnis von Hugo schieben
+
+  mv $file $publishpath
+# Backupdatei löschen, die sed automatisch anlegt
+  backupfile=$file"old"
+  rm $backupfile
+done
