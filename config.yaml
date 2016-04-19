@@ -4,7 +4,7 @@ layoutdir: "layouts"
 publishdir: "public"
 indexes:
   category: "categories"
-baseurl: "http://aexeagmbh.github.io/learnATML3/"
+#baseurl: "http://aexeagmbh.github.io/learnATML3/"
 title: "learn ATML3 in five minute lessons"
 canonifyurls: true
 ...

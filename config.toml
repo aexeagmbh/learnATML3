@@ -1,4 +1,4 @@
-baseurl = "http://aexeagmbh.github.io/learnATML3/"
+#baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "de-de"
 title = "learn ATML3"
 
