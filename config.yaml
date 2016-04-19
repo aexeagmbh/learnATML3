@@ -7,4 +7,6 @@ indexes:
 #baseurl: "http://aexeagmbh.github.io/learnATML3/"
 title: "learn ATML3 in five minute lessons"
 canonifyurls: true
+params:
+  description: "Under Construction: Interactive tutorials about using ATML3. Take five minutes to learn the ATML3 NLG language."
 ...
