@@ -4,7 +4,7 @@
 # output (really-interactive-posts.html). The thebe.tpl template file is
 # at the very end of the gist.
 
-$ jupyter nbconvert --template thebe.tpl --to html <notebook.ipynb>
+$ jupyter nbconvert --template thebe/basic.tpl --to html <notebook.ipynb>
 
 
 # You can open the generated webpage locally file://... howerver some
