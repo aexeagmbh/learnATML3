@@ -9,4 +9,4 @@ category = "categories"
 [params]
   description = "Interactive tutorials about using ATML3. Take five minutes to learn the ATML3 NLG language."
   author = "Frank Feulner"
-  GitHubUser: "frank-feulner"
+  GitHubUser = "frank-feulner"
