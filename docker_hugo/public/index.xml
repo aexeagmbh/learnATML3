@@ -6,13 +6,70 @@
     <description>Recent content on learn ATML3</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Thu, 05 May 2016 17:12:56 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 05 May 2016 17:15:16 +0200</lastBuildDate>
     <atom:link href="http://learning.atml3.rocks/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Welcome_to_ATML3</title>
+      <link>http://learning.atml3.rocks/post/Welcome_to_ATML3/</link>
+      <pubDate>Thu, 05 May 2016 17:15:16 +0200</pubDate>
+      
+      <guid>http://learning.atml3.rocks/post/Welcome_to_ATML3/</guid>
+      <description>&lt;div class=&#34;cell border-box-sizing text_cell rendered&#34;&gt;
+&lt;div class=&#34;prompt input_prompt&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;inner_cell&#34;&gt;
+&lt;div class=&#34;text_cell_render border-box-sizing rendered_html&#34;&gt;
+&lt;h2 id=&#34;ATML3&#34;&gt;ATML3&lt;a class=&#34;anchor-link&#34; href=&#34;#ATML3&#34;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;h1 id=&#34;Investieren-Sie-5-Minuten-und-lernen-Sie-etwas-&amp;#252;ber-die-weltweit-einzige-NLG-Trainingssprache&#34;&gt;Investieren Sie 5 Minuten und lernen Sie etwas &amp;#252;ber die weltweit einzige NLG-Trainingssprache&lt;a class=&#34;anchor-link&#34; href=&#34;#Investieren-Sie-5-Minuten-und-lernen-Sie-etwas-&amp;#252;ber-die-weltweit-einzige-NLG-Trainingssprache&#34;&gt;&amp;#182;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Mit ATML3 können Sie einer Maschine beibringen, Ihre Texte zu schreiben. Was Sie dazu tun müssen, lernen Sie in 5-minütigen Lektionen.&lt;/p&gt;
+&lt;h2 id=&#34;Die-Lektionen-folgen-immer-der-folgenden-Struktur:&#34;&gt;Die Lektionen folgen immer der folgenden Struktur:&lt;a class=&#34;anchor-link&#34; href=&#34;#Die-Lektionen-folgen-immer-der-folgenden-Struktur:&#34;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;cell border-box-sizing code_cell rendered&#34;&gt;
+&lt;div class=&#34;input&#34;&gt;
+&lt;div class=&#34;prompt input_prompt&#34;&gt;In&amp;nbsp;[&amp;nbsp;]:&lt;/div&gt;
+&lt;div class=&#34;inner_cell&#34;&gt;
+    &lt;div class=&#34;input_area&#34;&gt;
+&lt;div class=&#34; highlight hl-ipython3&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;## In diesem Block finden Sie eine ATML3-Aufgabe vor&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;cell border-box-sizing code_cell rendered&#34;&gt;
+&lt;div class=&#34;input&#34;&gt;
+&lt;div class=&#34;prompt input_prompt&#34;&gt;In&amp;nbsp;[&amp;nbsp;]:&lt;/div&gt;
+&lt;div class=&#34;inner_cell&#34;&gt;
+    &lt;div class=&#34;input_area&#34;&gt;
+&lt;div class=&#34; highlight hl-ipython3&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;## In diesem Block sehen Sie einen Datensatz. Daraus erzeugt ihr ATML3-Code Sprache.&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;cell border-box-sizing code_cell rendered&#34;&gt;
+&lt;div class=&#34;input&#34;&gt;
+&lt;div class=&#34;prompt input_prompt&#34;&gt;In&amp;nbsp;[&amp;nbsp;]:&lt;/div&gt;
+&lt;div class=&#34;inner_cell&#34;&gt;
+    &lt;div class=&#34;input_area&#34;&gt;
+&lt;div class=&#34; highlight hl-ipython3&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;## Dieser Block berechnet das Ergebnis der Aufgabe&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;</description>
+    </item>
     
     <item>
       <title>Container</title>
       <link>http://learning.atml3.rocks/post/Container/</link>
-      <pubDate>Thu, 05 May 2016 17:12:56 +0200</pubDate>
+      <pubDate>Thu, 05 May 2016 17:15:16 +0200</pubDate>
       
       <guid>http://learning.atml3.rocks/post/Container/</guid>
       <description>&lt;div class=&#34;cell border-box-sizing text_cell rendered&#34;&gt;
@@ -88,7 +145,7 @@
     <item>
       <title>Sätze</title>
       <link>http://learning.atml3.rocks/post/S%C3%A4tze/</link>
-      <pubDate>Thu, 05 May 2016 17:12:56 +0200</pubDate>
+      <pubDate>Thu, 05 May 2016 17:15:16 +0200</pubDate>
       
       <guid>http://learning.atml3.rocks/post/S%C3%A4tze/</guid>
       <description>&lt;div class=&#34;cell border-box-sizing text_cell rendered&#34;&gt;
@@ -152,63 +209,6 @@
 &lt;div class=&#34; highlight hl-ipython3&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;## Dieser Block berechnet das Ergebnis der Aufgabe&lt;/span&gt;
 
 &lt;span class=&#34;c1&#34;&gt;# Rendern: Beispieltemplate mit dem in 1. erzeugten Satz.&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Welcome_to_ATML3</title>
-      <link>http://learning.atml3.rocks/post/Welcome_to_ATML3/</link>
-      <pubDate>Thu, 05 May 2016 17:12:56 +0200</pubDate>
-      
-      <guid>http://learning.atml3.rocks/post/Welcome_to_ATML3/</guid>
-      <description>&lt;div class=&#34;cell border-box-sizing text_cell rendered&#34;&gt;
-&lt;div class=&#34;prompt input_prompt&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;inner_cell&#34;&gt;
-&lt;div class=&#34;text_cell_render border-box-sizing rendered_html&#34;&gt;
-&lt;h2 id=&#34;ATML3&#34;&gt;ATML3&lt;a class=&#34;anchor-link&#34; href=&#34;#ATML3&#34;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;h1 id=&#34;Investieren-Sie-5-Minuten-und-lernen-Sie-etwas-&amp;#252;ber-die-weltweit-einzige-NLG-Trainingssprache&#34;&gt;Investieren Sie 5 Minuten und lernen Sie etwas &amp;#252;ber die weltweit einzige NLG-Trainingssprache&lt;a class=&#34;anchor-link&#34; href=&#34;#Investieren-Sie-5-Minuten-und-lernen-Sie-etwas-&amp;#252;ber-die-weltweit-einzige-NLG-Trainingssprache&#34;&gt;&amp;#182;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Mit ATML3 können Sie einer Maschine beibringen, Ihre Texte zu schreiben. Was Sie dazu tun müssen, lernen Sie in 5-minütigen Lektionen.&lt;/p&gt;
-&lt;h2 id=&#34;Die-Lektionen-folgen-immer-der-folgenden-Struktur:&#34;&gt;Die Lektionen folgen immer der folgenden Struktur:&lt;a class=&#34;anchor-link&#34; href=&#34;#Die-Lektionen-folgen-immer-der-folgenden-Struktur:&#34;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;cell border-box-sizing code_cell rendered&#34;&gt;
-&lt;div class=&#34;input&#34;&gt;
-&lt;div class=&#34;prompt input_prompt&#34;&gt;In&amp;nbsp;[&amp;nbsp;]:&lt;/div&gt;
-&lt;div class=&#34;inner_cell&#34;&gt;
-    &lt;div class=&#34;input_area&#34;&gt;
-&lt;div class=&#34; highlight hl-ipython3&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;## In diesem Block finden Sie eine ATML3-Aufgabe vor&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;div class=&#34;cell border-box-sizing code_cell rendered&#34;&gt;
-&lt;div class=&#34;input&#34;&gt;
-&lt;div class=&#34;prompt input_prompt&#34;&gt;In&amp;nbsp;[&amp;nbsp;]:&lt;/div&gt;
-&lt;div class=&#34;inner_cell&#34;&gt;
-    &lt;div class=&#34;input_area&#34;&gt;
-&lt;div class=&#34; highlight hl-ipython3&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;## In diesem Block sehen Sie einen Datensatz. Daraus erzeugt ihr ATML3-Code Sprache.&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;div class=&#34;cell border-box-sizing code_cell rendered&#34;&gt;
-&lt;div class=&#34;input&#34;&gt;
-&lt;div class=&#34;prompt input_prompt&#34;&gt;In&amp;nbsp;[&amp;nbsp;]:&lt;/div&gt;
-&lt;div class=&#34;inner_cell&#34;&gt;
-    &lt;div class=&#34;input_area&#34;&gt;
-&lt;div class=&#34; highlight hl-ipython3&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;## Dieser Block berechnet das Ergebnis der Aufgabe&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;/div&gt;
