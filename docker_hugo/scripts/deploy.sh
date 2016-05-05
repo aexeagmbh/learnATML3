@@ -2,7 +2,7 @@
 
 #aktuellen Pfad abfragen
   cd $(dirname $0)
-  currentpath=$(pwd)
+  currentpath=$(pwd)/docker_hugo
   cd ..
 #aus aktuellem Pfad den Pfad des Jupyter Notebooks ableiten und dorthin wechseln
   contentpath=${currentpath/scripts/Lessons}/
