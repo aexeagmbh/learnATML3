@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on learn ATML3</title>
-    <link>http://learning.atml3.rocks/post/</link>
+    <link>/post/</link>
     <description>Recent content in Posts on learn ATML3</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Thu, 05 May 2016 17:22:01 +0200</lastBuildDate>
-    <atom:link href="http://learning.atml3.rocks/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 May 2016 17:25:12 +0200</lastBuildDate>
+    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Container</title>
-      <link>http://learning.atml3.rocks/post/Container/</link>
-      <pubDate>Thu, 05 May 2016 17:22:01 +0200</pubDate>
+      <link>/post/Container/</link>
+      <pubDate>Thu, 05 May 2016 17:25:12 +0200</pubDate>
       
-      <guid>http://learning.atml3.rocks/post/Container/</guid>
+      <guid>/post/Container/</guid>
       <description>&lt;div class=&#34;cell border-box-sizing text_cell rendered&#34;&gt;
 &lt;div class=&#34;prompt input_prompt&#34;&gt;
 &lt;/div&gt;
@@ -87,10 +87,10 @@
     
     <item>
       <title>Sätze</title>
-      <link>http://learning.atml3.rocks/post/S%C3%A4tze/</link>
-      <pubDate>Thu, 05 May 2016 17:22:01 +0200</pubDate>
+      <link>/post/S%C3%A4tze/</link>
+      <pubDate>Thu, 05 May 2016 17:25:12 +0200</pubDate>
       
-      <guid>http://learning.atml3.rocks/post/S%C3%A4tze/</guid>
+      <guid>/post/S%C3%A4tze/</guid>
       <description>&lt;div class=&#34;cell border-box-sizing text_cell rendered&#34;&gt;
 &lt;div class=&#34;prompt input_prompt&#34;&gt;
 &lt;/div&gt;
@@ -163,10 +163,10 @@
     
     <item>
       <title>Welcome_to_ATML3</title>
-      <link>http://learning.atml3.rocks/post/Welcome_to_ATML3/</link>
-      <pubDate>Thu, 05 May 2016 17:22:01 +0200</pubDate>
+      <link>/post/Welcome_to_ATML3/</link>
+      <pubDate>Thu, 05 May 2016 17:25:12 +0200</pubDate>
       
-      <guid>http://learning.atml3.rocks/post/Welcome_to_ATML3/</guid>
+      <guid>/post/Welcome_to_ATML3/</guid>
       <description>&lt;div class=&#34;cell border-box-sizing text_cell rendered&#34;&gt;
 &lt;div class=&#34;prompt input_prompt&#34;&gt;
 &lt;/div&gt;
