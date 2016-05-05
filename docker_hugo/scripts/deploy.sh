@@ -15,7 +15,7 @@ echo Pfade $contentpath $publishpath
 
 for file in $contentpath*.ipynb ; do
 # Notebooks in html mit basistemplate umwandeln
-jupyter nbconvert $file to html --template basic
+jupyter nbconvert to html --template basic $file 
 done
 
 # Datum so umformatieren, dass hugo es erkennt --> Zeitzone +0200 zu +02:00
