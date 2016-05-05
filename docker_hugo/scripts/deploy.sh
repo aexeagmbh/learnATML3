@@ -10,12 +10,11 @@
   publishpath=${currentpath/scripts/content}/
   publishpath=$publishpath"post/"
 
-echo Pfade $contentpath $publishpath
 # alle html Dateien in contentpath abgehen
 
 for file in $contentpath*.ipynb ; do
 # Notebooks in html mit basistemplate umwandeln
-jupyter nbconvert --to html --template basic $file 
+jupyter nbconvert --to html --template basic $file
 done
 
 # Datum so umformatieren, dass hugo es erkennt --> Zeitzone +0200 zu +02:00
@@ -49,13 +48,12 @@ for file in $contentpath*.html ; do
   rm $backupfile
 done
 
-echo $(pwd)
-
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Build the project.
+echo -e "building with hugo starts"
 hugo -D -F --theme=base16
-
+echo -e "building with hugo finished"
 # Add changes to git.
 git add -A
 
