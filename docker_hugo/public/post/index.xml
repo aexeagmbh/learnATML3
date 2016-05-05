@@ -6,13 +6,89 @@
     <description>Recent content in Posts on learn ATML3</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Wed, 04 May 2016 12:44:55 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 05 May 2016 12:09:08 +0200</lastBuildDate>
     <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Container</title>
+      <link>/post/Container/</link>
+      <pubDate>Thu, 05 May 2016 12:09:08 +0200</pubDate>
+      
+      <guid>/post/Container/</guid>
+      <description>&lt;div class=&#34;cell border-box-sizing text_cell rendered&#34;&gt;
+&lt;div class=&#34;prompt input_prompt&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;inner_cell&#34;&gt;
+&lt;div class=&#34;text_cell_render border-box-sizing rendered_html&#34;&gt;
+&lt;h2 id=&#34;Satz&#34;&gt;Satz&lt;a class=&#34;anchor-link&#34; href=&#34;#Satz&#34;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;h1 id=&#34;Schreiben-Sie-einen-Satz&#34;&gt;Schreiben Sie einen Satz&lt;a class=&#34;anchor-link&#34; href=&#34;#Schreiben-Sie-einen-Satz&#34;&gt;&amp;#182;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;ATML3 baut Texte aus einzelnen Aussagen auf. Diese Aussagen schreibt man erst einmal auf, wie gewohnt.&lt;/p&gt;
+&lt;h2 id=&#34;Aufgabe:&#34;&gt;Aufgabe:&lt;a class=&#34;anchor-link&#34; href=&#34;#Aufgabe:&#34;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Denken Sie sich einen Satz aus und schreiben Sie ihn ins Datenfeld &#34;Text&#34;&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;cell border-box-sizing code_cell rendered&#34;&gt;
+&lt;div class=&#34;input&#34;&gt;
+&lt;div class=&#34;prompt input_prompt&#34;&gt;In&amp;nbsp;[&amp;nbsp;]:&lt;/div&gt;
+&lt;div class=&#34;inner_cell&#34;&gt;
+    &lt;div class=&#34;input_area&#34;&gt;
+&lt;div class=&#34; highlight hl-ipython3&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;## In diesem Block finden Sie eine ATML3-Aufgabe vor&lt;/span&gt;
+
+&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;s2&#34;&gt;&amp;quot;name&amp;quot;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;meinSatz&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+    &lt;span class=&#34;s2&#34;&gt;&amp;quot;triggers&amp;quot;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;Auto&amp;quot;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
+    &lt;span class=&#34;s2&#34;&gt;&amp;quot;obligatory&amp;quot;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+    &lt;span class=&#34;s2&#34;&gt;&amp;quot;comment&amp;quot;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+    &lt;span class=&#34;s2&#34;&gt;&amp;quot;variants&amp;quot;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+      &lt;span class=&#34;s2&#34;&gt;&amp;quot;de-DE&amp;quot;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;s2&#34;&gt;&amp;quot;text&amp;quot;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+        &lt;span class=&#34;s2&#34;&gt;&amp;quot;synonyms&amp;quot;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+        &lt;span class=&#34;s2&#34;&gt;&amp;quot;tags&amp;quot;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+      &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;cell border-box-sizing code_cell rendered&#34;&gt;
+&lt;div class=&#34;input&#34;&gt;
+&lt;div class=&#34;prompt input_prompt&#34;&gt;In&amp;nbsp;[&amp;nbsp;]:&lt;/div&gt;
+&lt;div class=&#34;inner_cell&#34;&gt;
+    &lt;div class=&#34;input_area&#34;&gt;
+&lt;div class=&#34; highlight hl-ipython3&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;## In diesem Block sehen Sie einen Datensatz. Daraus erzeugt ihr ATML3-Code Sprache.&lt;/span&gt;
+
+&lt;span class=&#34;c1&#34;&gt;# Daten: JSON-Beispieldaten. Egal welche.&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;cell border-box-sizing code_cell rendered&#34;&gt;
+&lt;div class=&#34;input&#34;&gt;
+&lt;div class=&#34;prompt input_prompt&#34;&gt;In&amp;nbsp;[&amp;nbsp;]:&lt;/div&gt;
+&lt;div class=&#34;inner_cell&#34;&gt;
+    &lt;div class=&#34;input_area&#34;&gt;
+&lt;div class=&#34; highlight hl-ipython3&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;## Dieser Block berechnet das Ergebnis der Aufgabe&lt;/span&gt;
+
+&lt;span class=&#34;c1&#34;&gt;# Rendern: Beispieltemplate mit dem in 1. erzeugten Satz.&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;</description>
+    </item>
     
     <item>
       <title>Sätze</title>
       <link>/post/S%C3%A4tze/</link>
-      <pubDate>Wed, 04 May 2016 12:44:55 +0200</pubDate>
+      <pubDate>Thu, 05 May 2016 12:09:08 +0200</pubDate>
       
       <guid>/post/S%C3%A4tze/</guid>
       <description>&lt;div class=&#34;cell border-box-sizing text_cell rendered&#34;&gt;
@@ -88,7 +164,7 @@
     <item>
       <title>Welcome_to_ATML3</title>
       <link>/post/Welcome_to_ATML3/</link>
-      <pubDate>Wed, 04 May 2016 12:44:55 +0200</pubDate>
+      <pubDate>Thu, 05 May 2016 12:09:08 +0200</pubDate>
       
       <guid>/post/Welcome_to_ATML3/</guid>
       <description>&lt;div class=&#34;cell border-box-sizing text_cell rendered&#34;&gt;
