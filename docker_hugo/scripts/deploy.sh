@@ -4,12 +4,13 @@
   cd $(dirname $0)
   currentpath=$(pwd)
   cd ..
-echo Aktueller Pfad $currentpath
+
 #aus aktuellem Pfad den Pfad des Jupyter Notebooks ableiten und dorthin wechseln
   contentpath=${currentpath/scripts/Lessons}/
   publishpath=${currentpath/scripts/content}/
   publishpath=$publishpath"post/"
 
+echo Pfade $contentpath $publishpath
 # alle html Dateien in contentpath abgehen
 
 for file in $contentpath*.ipynb ; do
