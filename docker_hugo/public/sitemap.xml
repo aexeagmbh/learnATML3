@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/</loc>
-    <lastmod>2016-05-05T12:23:29+02:00</lastmod>
+    <loc>http://learning.atml3.rocks/</loc>
+    <lastmod>2016-05-05T12:29:04+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/Container/</loc>
-    <lastmod>2016-05-05T12:23:29+02:00</lastmod>
+    <loc>http://learning.atml3.rocks/post/Container/</loc>
+    <lastmod>2016-05-05T12:29:04+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/S%C3%A4tze/</loc>
-    <lastmod>2016-05-05T12:23:29+02:00</lastmod>
+    <loc>http://learning.atml3.rocks/post/S%C3%A4tze/</loc>
+    <lastmod>2016-05-05T12:29:04+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/Welcome_to_ATML3/</loc>
-    <lastmod>2016-05-05T12:23:29+02:00</lastmod>
+    <loc>http://learning.atml3.rocks/post/Welcome_to_ATML3/</loc>
+    <lastmod>2016-05-05T12:29:04+02:00</lastmod>
   </url>
   
 </urlset>
