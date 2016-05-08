@@ -1,4 +1,4 @@
-FROM docker_python:latest
-ADD $pwd
-RUN pip3 install jupyter \
-git pull
+FROM docker_jupyter:latest
+ADD . /tmp/
+CMD cd tmp && ls -la
+# bash tmp/scripts/deploy.sh
